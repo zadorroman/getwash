@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="Starter">
@@ -18,17 +19,22 @@
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
+
 <body>
-<header class="header">
-	<div class="container">
+	<header class="header">
 		<nav class="nav header__nav">
 			<a href="#" class="logo header__logo">
 				GetWash
 			</a>
+
+
 			<menu class="menu header__menu">
+				<div class="menu__burger">
+					<span class="menu__line"></span>
+				</div>
 				<ul class="menu__list">
 					<li class="menu__item">
-						<a href="#" class="menu__link">Как использовать </a>							</a>
+						<a href="#" class="menu__link">Как использовать </a>
 					</li>
 					<li class="menu__item">
 						<a href="#" class="menu__link">Партнерам</a>
@@ -39,32 +45,48 @@
 					<li class="menu__item">
 						<a href="#" class="menu__link">Отзывы</a>
 					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__btn btn">
+							Получить доступ
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__btn btn btn--white">
+							Стать партнером
+						</a>
+					</li>
+
 				</ul>
-				<div class="menu__wrap">
-					<a href="#" class="menu__btn btn">
-						Получить доступ
-					</a>
-					<a href="#" class="menu__btn btn btn--white">
-						Стать партнером
-					</a>
-				</div>
+
 			</menu>
 		</nav>
-		<h1 class="header__title title">
-			Поиск ближайшей свободной автомойки и бронирование
-на удобное время.
-		</h1>
-		<i class="header__icon icon-Arrow-1"></i>
-		<h2 class="header__subtitle subtitle">
-			Мы поможем сохранить ваше время для более интересных занятий,
-чем стоять в очереди.
-		</h2>
-		<a href="#" class="header__btn btn">
-			Получить доступ
-		</a>
-	</div>
+		<div class="container">
 
-</header>
+			<h1 class="header__title title">
+				Поиск ближайшей свободной автомойки и бронирование
+				на удобное время.
+			</h1>
+			<i class="header__icon icon-Arrow-1"></i>
+			<h2 class="header__subtitle subtitle">
+				Мы поможем сохранить ваше время для более интересных занятий,
+				чем стоять в очереди.
+			</h2>
+			<div class="header__btn">
+				<a href="#" class="header__btn btn">
+					Получить доступ
+				</a>
+			</div>
+
+		</div>
+		<div class="header__image">
+			<img src="../images/mobile/phone.png" alt="phone" class="header__pic">
+		</div>
+
+	</header>
+	<section class="about">
+		asdasdasd
+	</section>
 	<!-- <i class="icon-Call"></i>
 	<i class="icon-chevron-right"></i>
 	<i class="icon-Filter"></i>
@@ -83,4 +105,5 @@
 	<script src="js/main.js"></script>
 	<!--endbuild-->
 </body>
+
 </html>

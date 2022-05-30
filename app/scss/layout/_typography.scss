@@ -1,3 +1,40 @@
 .title {
-    font: 400 18px $font;
-};
+    font: 400 21px $font;
+    text-align: center;
+    line-height: 26px;
+    color: $black;
+}
+
+;
+
+.logo {
+    font: 700 27px $font;
+    z-index: 500;
+}
+
+.subtitle {
+    text-align: center;
+    font: 300 16px $font;
+    line-height: 22px;
+}
+
+.btn {
+    border-radius: 6px;
+    background: $blue;
+    color: #fff;
+    font: 400 16px $font;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 0;
+    white-space: nowrap;
+
+    @include size(100%);
+    max-width: 170px;
+    max-height: 50px;
+
+
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}

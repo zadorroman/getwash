@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 3;
+    align-items: baseline;
+    padding: 20px;
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+
+    &::after,
+    &::before {
+        position: absolute;
+        content: '';
+        z-index: 3;
+        background: $line;
+    }
+
+    &::before {
+        @include size(1px, 60px);
+        top: 0;
+        right: 20%;
+    }
+
+    &::after {
+        @include size(100%, 1px);
+        left: 0;
+        top: 60px;
+    }
+
+}

@@ -1,60 +1,73 @@
-
 @include font-face('icomoon', 'fonts/icomoon/icomoon', $ver: '?f6qtum');
 
 
 
-[class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
 
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-chevron-right:before {
-    content: "\e905";
-    color: #72727e;
-  }
-  .icon-Filter:before {
-    content: "\e900";
-  }
-  .icon-Arrow-1:before {
-    content: "\e901";
-  }
-  .icon-Calendar:before {
-    content: "\e902";
-  }
-  .icon-Call:before {
-    content: "\e903";
-  }
-  .icon-Chat:before {
-    content: "\e904";
-  }
-  .icon-Document:before {
-    content: "\e906";
-  }
-  .icon-Download:before {
-    content: "\e907";
-  }
-  .icon-Edit:before {
-    content: "\e908";
-  }
-  .icon-Location:before {
-    content: "\e909";
-  }
-  .icon-Message:before {
-    content: "\e90a";
-  }
-  .icon-Star:before {
-    content: "\e90b";
-  }
-  .icon-Wallet:before {
-    content: "\e90c";
-  }
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+}
+
+.icon-chevron-right:before {
+  content: "\e905";
+  color: #72727e;
+}
+
+.icon-Filter:before {
+  content: "\e900";
+}
+
+.icon-Arrow-1:before {
+  content: "\e901";
+}
+
+.icon-Calendar:before {
+  content: "\e902";
+}
+
+.icon-Call:before {
+  content: "\e903";
+}
+
+.icon-Chat:before {
+  content: "\e904";
+}
+
+.icon-Document:before {
+  content: "\e906";
+}
+
+.icon-Download:before {
+  content: "\e907";
+}
+
+.icon-Edit:before {
+  content: "\e908";
+}
+
+.icon-Location:before {
+  content: "\e909";
+}
+
+.icon-Message:before {
+  content: "\e90a";
+}
+
+.icon-Star:before {
+  content: "\e90b";
+}
+
+.icon-Wallet:before {
+  content: "\e90c";
+}
