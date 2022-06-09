@@ -5,7 +5,6 @@
     color: $black;
 }
 
-;
 
 .logo {
     font: 700 27px $font;
@@ -36,5 +35,12 @@
     &:hover {
         text-decoration: none;
         color: #fff;
+    }
+
+    &--white {
+        background: #fff;
+        color: $blue;
+        border: 1px solid $line;
+        border-radius: 6px;
     }
 }

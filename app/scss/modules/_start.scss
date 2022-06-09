@@ -1,0 +1,43 @@
+.start {
+    padding-top: 1px;
+    margin-top: 50px;
+
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__icon {
+        background: $lgrey;
+        color: $blue;
+        padding: 10px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        font-size: 36px;
+        display: inline-block;
+        @include size(60px);
+
+    }
+
+
+
+
+    &__item {
+        margin: 0 auto 30px;
+        max-width: 260px;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font: 400 18px/24px $font;
+        color: $black;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font: 300 14px/18.9px $font;
+        color: $grey;
+
+    }
+}
